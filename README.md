@@ -4,7 +4,7 @@
 **Frontend:** HTML, CSS, Bootstrap, React  
 **Backend:** PHP, CodeIgniter, Laravel, ASP.NET, VB.NET  
 **Database:** MySQL, PostgreSQL, phpMyAdmin, Navicat  
-**Tools:** Git, GitHub, VS Code, XAMPP, Eclipse, Laragon
+**Tools:** Git, GitHub, VS Code, XAMPP, Eclipse, Laragon  
 **Automation:** Power Automate, UiPath
 ### 🤖 AI Tools
 Copilot, ChatGPT, Gemini
