@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport- fit-cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Arnold Rodas | Portfolio</title>
+  <link rel="icon" href="media/aboutme/logo.jpg">
+  <meta name="description" 
+  content="Arnold Rodas Portfolio – Full Stack Web Developer and RPA Developer 
+  specializing in PHP, CodeIgniter, automation systems, and enterprise workflows.">
   <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
@@ -13,13 +17,14 @@
     <button class="theme-toggle">🌙 Dark Mode</button>
 <br>
     <h1>Arnold Rodas</h1>
-    <p>Entry-Level Web Developer</p>
+    <p>Full-Stack Web Developer / RPA Developer / Software Developer</p>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
+    <p><strong>Specializing in Web Development, Automation Systems, and Enterprise Workflow Solutions.</strong></p>
   </header>
 
  <section id="about">
@@ -27,7 +32,9 @@
   <!-- <img src="media/aboutme/ako.png" alt="My Photo"> TO DO: Replace with a proper profile photo once available--> 
 
   <p>👋 <strong>Hi, I’m Arnold Rodas!</strong></p>
-  <p>I’m a passionate web developer with internship experience in both frontend and backend development. I worked on the Primera Ph website using PHP and database integration. I’m eager to learn more, grow as a developer, and contribute to meaningful projects.</p>
+  <p>
+I’m a passionate web developer and automation developer with hands-on experience in both frontend and backend development. I’ve built full-featured web applications, including a custom CMS for Primera Motorcycles using PHP (CodeIgniter 4) and MySQL. At <strong>Nidec Philippines Corporation</strong>, I contributed to multiple internal projects: I implemented automated workflows to consolidate and validate SAP and WMS data using RPA, Excel, Ajax, and JSON, reducing errors and streamlining operations; and I developed the Dynamic Model Data Search tool, which automated Excel processing and enabled fast, searchable access to large product datasets. I enjoy solving real-world problems with code, learning new technologies, and creating projects that deliver tangible impact.
+</p>
 </section>
 
 <button id="scrollTopBtn">
@@ -36,10 +43,233 @@
   </button>
 
   <section id="projects" class="project">
-  <h2>Projects</h2>
+    
+    <h2>Professional & Enterprise Projects</h2>
 
-  <div class="project-wrapper">
+    <div class="project-wrapper">
+      <div class="project-image">
+        <div class="confidential-overlay">
+          ⚠ Confidential data blurred for security purposes
+        </div>
+        <div class="img-wrapper">
+          <img src="media/project-images/sapwms/sapwms1.png" alt="Primera1">
+          <div class="overlay"><span class="view-text">VIEW</span></div>
+        </div>
+        <div class="img-wrapper">
+          <img src="media/project-images/sapwms/sapwms.png" alt="Primera 2">
+          <div class="overlay"><span class="view-text">VIEW</span></div>
+        </div>
+        <div class="img-wrapper">
+          <img src="media/project-images/sapwms/sapwms2.png" alt="Primera 3">
+          <div class="overlay"><span class="view-text">VIEW</span></div>
+        </div>
+        <div class="img-wrapper">
+          <img src="media/project-images/sapwms/sapwms3.png" alt="Primera 4">
+          <div class="overlay"><span class="view-text">VIEW</span></div>
+        </div>
+      </div>
+  <div class="project-text">
+    <h2>💼 Professional Web Project – SAP/WMS Data Consolidation Portal</h2>
+    <p><strong>🏢 Company: </strong><a href="https://www.nidec.com/en/corporate/network/factory/philippines_p/" target="_blank">Nidec Philippines Corporation</a></p>
+    <p><strong>🗺️ Location:</strong> 136 North Science Avenue Extension, Laguna Technopark SEZ, Binan, Laguna, Philippines</p>
+    <p><strong>🗓️ Duration:</strong> October 21, 2025 – April 20, 2026</p>
+    <p><strong>🛠️ Technologies:</strong> PHP, MySQL, PDO, Excel, SAP, WMS</p>
 
+    <div class="description">
+      <h3>📌 Project Overview</h3>
+      <p>
+        Developed a web portal to consolidate and validate SAP and WMS batch data. Uploaded Excel files from SAP are processed, compared with scanned inventory, and summarized for audit purposes.
+      </p>
+      <ul>
+        <li>
+Automated Excel upload and processing pipeline storing records in the <strong>uploaded</strong> table with auto-truncate cleanup. Implemented warning prompts and automated backups to safeguard against data loss while maintaining real-time data integrity.
+</li>
+        <li>Compared uploaded SAP data against scanned inventory to identify <strong>Not Uploaded</strong>, <strong>Uploaded</strong>, and <strong>Double Posted</strong> items automatically.</li>
+        <li>Implemented business rules for double postings, quantity validation, and batch tracking per department.</li>
+        <li>Enabled <strong>weekly validation</strong>, which was previously monthly, with both weekly and monthly audit summaries now automated and directly available in the web portal.</li>
+        <li>Generated summary reports for weekly and monthly audits, with Excel export capability.</li>
+        <li>Integrated RPA workflows to download from WMS, upload to SAP, control errors, and auto-resume processes via Remote Desktop & VNCViewer.</li>
+        <li>Reduced manual effort, decreased errors, and improved reliability of ordering and costing processes across departments.</li>
+      </ul>
+      <p><strong>Impact:</strong> Enabled real-time data validation, automated SAP uploads, and improved operational efficiency for inventory and audit processes.</p>
+      <p>🌐<strong>Live Portal:</strong> Internal (company access only)</p>
+    </div>
+  </div>
+</div>
+<div class="project-wrapper">
+  <div class="project-image">
+    <div class="confidential-overlay">
+    ⚠ Confidential data blurred for security purposes
+  </div>
+        <div class="img-wrapper">
+          <img src="media/project-images/dmdseps/dmdseps.png" alt="DMDSEPS 1">
+          <div class="overlay"><span class="view-text">VIEW</span></div>
+        </div>
+        <div class="img-wrapper">
+          <img src="media/project-images/dmdseps/dmdseps1.png" alt="DMDSEPS 2">
+          <div class="overlay"><span class="view-text">VIEW</span></div>
+        </div>
+        <div class="img-wrapper">
+          <img src="media/project-images/dmdseps/dmdseps2.png" alt="DMDSEPS 3">
+          <div class="overlay"><span class="view-text">VIEW</span></div>
+        </div>
+        <div class="img-wrapper">
+          <img src="media/project-images/dmdseps/dmdseps3.png" alt="DMDSEPS 4">
+          <div class="overlay"><span class="view-text">VIEW</span></div>
+        </div>
+      </div>
+  <div class="project-text">
+    <h2>💼 Professional Web Project – Dynamic Model Data Search & Excel Processing System</h2>
+    <p><strong>🏢 Company:</strong> <a href="https://www.nidec.com/en/corporate/network/factory/philippines_p/" target="_blank">Nidec Philippines Corporation</a></p>
+    <p><strong>🗺️ Location:</strong> 136 North Science Avenue Extension, Laguna Technopark SEZ, Binan, Laguna, Philippines</p>
+    <p><strong>🗓️ Duration:</strong> October 21, 2025 – April 20, 2026</p>
+    <p><strong>🛠️ Tools & Technologies:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
+
+    <div class="description">
+      <h3>📌 Project Overview</h3>
+      <p>
+        Developed an internal web-based system designed to streamline the process of locating and validating product model data 
+        from large Excel datasets. The tool automates data ingestion and organizes records into a structured database for fast and reliable retrieval.
+      </p>
+
+      <ul>
+        <li>Implemented automated Excel file processing to import and structure large datasets into a MySQL database.</li>
+        <li>Developed a dynamic search interface allowing users to quickly locate specific model records without manually scanning spreadsheets.</li>
+        <li>Designed optimized database queries to support fast lookups even when processing large volumes of records.</li>
+        <li>Implemented filtering and structured data presentation to improve usability and reduce manual data checking.</li>
+        <li>Improved operational efficiency by reducing time spent searching through large Excel files.</li>
+      </ul>
+
+      <p>
+        <strong>Impact:</strong> Significantly reduced manual searching and improved productivity by providing a centralized 
+        and searchable data system for large Excel-based datasets.
+      </p>
+
+      <p>🌐<strong>Live Portal:</strong> Internal (company access only)</p>
+    </div>
+  </div>
+</div>
+<div class="project-wrapper">
+<div class="project-text" style= "width: 90dvw;">
+  <h2>Professional Experience Project – 🤖 Robotic Process Automation – Download And Upload Process</h2>
+  <h3 class="no-images">
+  Images are not available for this project due to the confidential nature of the RPA software used.
+</h3>
+  <p><strong>🏢 Company:</strong> <a href="https://www.nidec.com/en/corporate/network/factory/philippines_p/" target="_blank">Nidec Philippines Corporation</a></p>
+  <p><strong>🗺️ Location:</strong> 136 North Science Avenue Extension, Laguna Technopark SEZ, Binan, Laguna, Philippines</p>
+  <p><strong>🗓️ Duration:</strong> October 21, 2025 – April 20, 2026</p>
+  <p>
+  <strong>🛠️ Tools & Technologies:</strong>  
+  (Confidential) RPA software, Excel, SQL, SAP, Warehouse Management Systems;  
+  C# & Visual Studio (for testing in the test environment);  
+  Remote Desktop & VNCViewer (for live environment management)
+</p>
+
+  <div class="description">
+    <h3>📌 Project Overview</h3>
+    <p>Implemented an automated workflow for end-to-end SAP and WMS data handling. Key responsibilities included:</p>
+    <ul>
+      <li>Downloading batch data from the Warehouse Management System (WMS) for processing.</li>
+      <li>Uploading processed data into SAP, ensuring accurate transfers and preventing double postings caused by temporary network spikes.</li>
+      <li>Logging success/error messages for each batch, storing backups, and maintaining comparison records for future uploads.</li>
+      <li>Automating workflow control: disabling the process via <strong>.bat script</strong> on errors, testing fixes in the test environment with C# & Visual Studio, and resuming in the live environment using Remote Desktop & VNCViewer. Implemented an auto-start feature to restart the workflow automatically once the User Interface is stable.</li>
+      <li>Leveraging <strong>image detection</strong> in RPA Software to accurately perform mouse clicks and keyboard events on the SAP and WMS interfaces, ensuring reliable interaction with the user interface even under dynamic screen conditions.</li>
+    </ul>
+
+    <p><strong>Operational Details:</strong> Runs continuously 24/7 in <strong>15-minute cycles</strong> with a 4-minute pause between batches to maintain data integrity across both databases.</p>
+
+    <p><strong>Impact:</strong> Reduced monthly errors from over 1,000 to ~70 per audit, ensured reliable data transfer between WMS and SAP, minimized manual intervention, and improved audit accuracy. Fully eliminated manual handling, allowing the team to focus on higher-value tasks and boosting operational efficiency.</p>
+  </div>
+</div>
+</div>
+<div class="project-wrapper">
+<div class="project-text" style="width: 90dvw;">
+  <h2>Professional Experience Project – 🤖 Robotic Process Automation – Yield Loss Data Download & Auto-Summarization</h2>
+
+  <h3 class="no-images">
+  Images are not available for this project due to the confidential nature of the RPA software used.
+  </h3>
+
+  <p><strong>🏢 Company:</strong> 
+  <a href="https://www.nidec.com/en/corporate/network/factory/philippines_p/" target="_blank">
+  Nidec Philippines Corporation
+  </a></p>
+
+  <p><strong>🗺️ Location:</strong> 136 North Science Avenue Extension, Laguna Technopark SEZ, Binan, Laguna, Philippines</p>
+
+  <p><strong>🗓️ Duration:</strong> October 21, 2025 – April 20, 2026</p>
+
+  <p>
+  <strong>🛠️ Tools & Technologies:</strong>  
+  (Confidential) RPA Software, Excel VBA (Macro Automation), Excel Data Processing,  
+  Image Recognition Automation for Mouse & Keyboard Interaction
+  </p>
+
+  <div class="description">
+
+    <h3>📌 Project Overview</h3>
+
+    <p>
+    Developed an automated RPA workflow designed to download, process, and summarize 
+    Yield Loss data used for operational analysis. The system handles multiple model 
+    classifications and part-based datasets, ensuring accurate and consistent daily 
+    reporting while eliminating manual data preparation.
+    </p>
+
+    <ul>
+      <li>
+      Implemented an RPA process responsible for automatically downloading 
+      <strong>114 different yield loss datasets</strong> across multiple model classifications and parts.
+      </li>
+
+      <li>
+      Utilized <strong>image recognition automation</strong> to accurately control mouse movements 
+      and keyboard inputs within the system interface, ensuring reliable navigation and file downloads.
+      </li>
+
+      <li>
+      Designed and developed a custom <strong>Excel VBA macro</strong> that automatically reads all downloaded 
+      files from a designated folder using the company’s predefined naming structure.
+      </li>
+
+      <li>
+      The macro extracts the required data from the previous day’s Yield Loss reports and 
+      compiles them into a <strong>centralized summarized Excel report</strong>.
+      </li>
+
+      <li>
+      Implemented an automated <strong>Save Copy As</strong> workflow to generate multiple backup copies 
+      for redundancy and data traceability.
+      </li>
+
+      <li>
+      Automated file organization by transferring:
+        <ul>
+          <li>Raw downloaded files to an internal local storage folder for internal reference.</li>
+          <li>Summarized reports to designated backup locations for the IT Department.</li>
+          <li>Final processed files to a shared location accessible by the client for operational use.</li>
+        </ul>
+      </li>
+
+    </ul>
+
+    <p><strong>Operational Details:</strong>  
+    The automation runs daily, retrieving the previous day's Yield Loss data and executing 
+    a fully automated pipeline consisting of file downloading, macro-based summarization, 
+    backup creation, and structured file distribution.
+    </p>
+
+    <p><strong>Impact:</strong>  
+    Eliminated manual downloading and data consolidation tasks across 114 datasets, 
+    significantly improving processing speed, data accuracy, and reporting consistency 
+    while providing reliable daily summarized data for both internal teams and external clients.
+    </p>
+
+  </div>
+</div>
+</div>
+<h2>Internship Web Development Project</h2>
+    <div class="project-wrapper">
   <div class="project-image">
     <div class="img-wrapper">
       <img src="media/project-images/primera/primera.jpeg" alt="Primera1">
@@ -61,7 +291,7 @@
 
   <div class="project-text">
     <h2>💼 Internship Project – Mitsukoshi Motors Philippines Inc.</h2>
-    <p><strong>📍 Location:</strong> Carmona, Cavite</p>
+    <p><strong>🗺️ Location:</strong> Carmona, Cavite</p>
     <p><strong>🗓️ Duration:</strong> February 2, 2025 – June 6, 2025</p>
     <p><strong>🧑‍💻 Role:</strong> Web Developer Intern</p>
     <p><strong>🛠️ Technologies:</strong> PHP, HTML, CSS, Bootstrap, JavaScript, CodeIgniter 4, MySQL</p>
@@ -95,7 +325,7 @@
   </div>
 </div>
 
-
+<h2>Academic Projects</h2>
  <div class="project-wrapper">
 
   <div class="project-image">
@@ -235,9 +465,9 @@
 
 </div>
 
-
+<h2>Personal / Experimental Projects</h2>
   <div class="project-wrapper">
-
+    
   <div class="project-image-app">
     <div class="img-wrapper">
       <img src="media/project-images/androidappaboutmecalcu/aboutmecalcu2.jpeg" alt="About Me Calculator App Screenshot">
@@ -296,11 +526,11 @@
       <div class="overlay"><span class="view-text">VIEW</span></div>
     </div>
     <div class="img-wrapper">
-      <img src="media/project-images/carinderiaordering/carinderia1.jpeg" alt="Carinderia Ordering App Screenshot 1">
+      <img src="media/project-images/carinderiaordering/carinderia3.jpeg" alt="Carinderia Ordering App Screenshot 1">
       <div class="overlay"><span class="view-text">VIEW</span></div>
     </div>
     <div class="img-wrapper">
-      <img src="media/project-images/carinderiaordering/carinderia2.jpeg" alt="Carinderia Ordering App Screenshot 2">
+      <img src="media/project-images/carinderiaordering/carinderia4.jpeg" alt="Carinderia Ordering App Screenshot 2">
       <div class="overlay"><span class="view-text">VIEW</span></div>
     </div>
   </div>
@@ -350,23 +580,30 @@
 
 
   <section id="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>C, C++, C#, Python, JavaScript, PHP, Java</li>
-      <li>HTML, CSS, Bootstrap, React, CodeIgniter</li>
-      <li>MySQL, phpMyAdmin, RESTful APIs</li>
-      <li>Git/GitHub, Visual Studio Code, XAMPP</li>
-    </ul>
-  </section>
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><strong>Programming:</strong> C, C++, C#, Python, JavaScript, PHP, Java, Visual Basic</li>
+    <li><strong>Frontend:</strong> HTML, CSS, Bootstrap, React</li>
+    <li><strong>Backend:</strong> PHP, CodeIgniter</li>
+    <li><strong>Database:</strong> MySQL, phpMyAdmin</li>
+    <li><strong>Tools:</strong> Git, GitHub, VS Code, XAMPP</li>
+    <li><strong>Automation:</strong> Power Automate, UiPath, Excel VBA</li>
+  </ul>
+  <br>
+  <h2>AI Tools</h2>
+  <ul>
+    <li>Copilot, ChatGPT, Gemini</li>
+  </ul>
+</section>
 
   <section id="contact">
   <h2>Contact</h2>
   <p>Email: <a href="mailto:arnoldrodas1232@gmail.com">arnoldrodas1232@gmail.com</a></p>
-  <p>GitHub: <a href="https://github.com/noldylackscode" target="_blank">github.com/arnoldrodas1232</a></p>
+  <p>GitHub Link: <i><strong>Click this for more info:</strong></i> <a href="https://github.com/noldylackscode" target="_blank">github.com/arnoldrodas1232</a></p>
 </section>
 
 
-<!-- JavaScript HERE -->
+
   <script src="js/scrolltotop.js"></script>
   <script src="js/text-animation.js"></script>
   <script src="js/lightordarkmode.js"></script>

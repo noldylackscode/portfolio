@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
     modalImg.src = img.src;
     modalImg.style.display = "block";
     modal.style.display = (window.innerWidth <= 768) ? "flex" : "block";
+    closeBtn.style.display = "flex"; 
+    closeBtn.style.display = (window.innerWidth <= 768) ? "flex" : "block";
     updateArrows();
   }
 
