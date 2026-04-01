@@ -32,12 +32,16 @@ document.addEventListener("DOMContentLoaded", () => {
     modalImg.style.display = "block";
     modal.style.display = (window.innerWidth <= 768) ? "flex" : "block";
     closeBtn.style.display = "flex"; 
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
     updateArrows();
   }
 
   function closeModal() {
     modal.style.display = "none";
     modalImg.style.display = "none";
+    document.body.style.overflow = "auto";
+    document.documentElement.style.overflow = "auto";
   }
 
   function nextImage() {
